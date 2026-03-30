@@ -12,17 +12,17 @@ let package = Package(
         .binaryTarget(
             name: "PixellotPlayerSDK",
             url: "https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.0/PixellotPlayerSDK.xcframework.zip",
-            checksum: "69d6be0ba471af5dc64e6081492995883ecf9c1c52edd83333f96db01103e833"
+            checksum: "ae29040fa74f8a9be5d9b48f219840408c15f1521eff4c30d6bdcd4438e56984"
         ),
         .binaryTarget(
             name: "NpawPlugin",
             url: "https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.0/NpawPlugin.xcframework.zip",
-            checksum: "d0da133b4f42b0a6d9df384365f8ec26bf4bd68802e9bdc488f30d10259a59c9"
+            checksum: "708975a718d4be5699e1d5b93f9e37a6a4e2e6e91b9fd9b33cc56cc28b4d1657"
         ),
         .binaryTarget(
             name: "GCDWebServers",
             url: "https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.0/GCDWebServers.xcframework.zip",
-            checksum: "affdeea8f05bcc00f9df2cbb7fb3a7f9171eb92e835f7b38427e45395013f665"
+            checksum: "5d7ed482642352f1dc63060d28907af0dd43f751324a0b0b74b68be9ab8df891"
         ),
     ]
 )
