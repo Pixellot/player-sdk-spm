@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Pixellot/player-sdk-spm'
   s.license          = { :type => 'EULA', :file => 'LICENSE' }
   s.author           = { 'Pixellot LTD' => 'sdk@pixellot.tv' }
-  s.source           = { :http => 'https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.0/PixellotPlayerSDK-1.0.0.zip', :sha256 => '53ffcad33c3461b4a5d3469ec0f94fd2c6479be3e57f3afbb8b33a27a3189d3a' }
+  s.source           = { :http => 'https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.0/PixellotPlayerSDK-1.0.0.zip', :sha256 => '8e56f17ed41948646a561e42f220edd01a832d8df18450a53fd7d21c380419cc' }
 
   s.ios.deployment_target = '13.0'
 
