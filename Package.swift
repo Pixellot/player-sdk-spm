@@ -11,18 +11,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PixellotPlayerSDK",
-            url: "https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.0/PixellotPlayerSDK.xcframework.zip",
-            checksum: "ae29040fa74f8a9be5d9b48f219840408c15f1521eff4c30d6bdcd4438e56984"
+            url: "https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.1/PixellotPlayerSDK.xcframework.zip",
+            checksum: "1e7a340492333f09d83a10f571ff2d135cf8f05c1b4a8c7bfcb0af2777a3a582"
         ),
         .binaryTarget(
             name: "NpawPlugin",
-            url: "https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.0/NpawPlugin.xcframework.zip",
-            checksum: "708975a718d4be5699e1d5b93f9e37a6a4e2e6e91b9fd9b33cc56cc28b4d1657"
+            url: "https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.1/NpawPlugin.xcframework.zip",
+            checksum: "4e02d62f030c1b820a61c7972b5110adba8020d24cefe69cd4aa00e7bfb45093"
         ),
         .binaryTarget(
             name: "GCDWebServers",
-            url: "https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.0/GCDWebServers.xcframework.zip",
-            checksum: "5d7ed482642352f1dc63060d28907af0dd43f751324a0b0b74b68be9ab8df891"
+            url: "https://github.com/Pixellot/player-sdk-spm/releases/download/ios-player%401.0.1/GCDWebServers.xcframework.zip",
+            checksum: "82d2fa2266a47f6d36ab411dc25944fe9f0f97388b1b8bd9ab093672b7649cc5"
         ),
     ]
 )
