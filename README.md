@@ -23,8 +23,8 @@ Choose your target platform to get started:
 
 | Platform | Package | Min OS | Guide |
 |---|---|---|---|
-| **iOS** | CocoaPods `~> 1.0.3` | iOS 13.0+ | [iOS Integration Guide]() |
-| **Android** | Gradle `1.0.1` | SDK 29+ | [Android Integration Guide]() |
+| **iOS** | CocoaPods `~> 1.0.3` | iOS 13.0+ | [iOS Integration Guide](README_IOS.md) |
+| **Android** | Gradle `1.0.1` | SDK 29+ | [Android Integration Guide](README_ANDROID.md) |
 
 ---
 

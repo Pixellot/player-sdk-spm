@@ -15,8 +15,7 @@ A video player SDK for Android applications.
 
 ## Installation
 
-<details>
-<summary><strong>Gradle (Kotlin DSL)</strong></summary>
+### Gradle (Kotlin DSL)
 
 Add the dependency to your module's `build.gradle.kts`:
 
@@ -25,8 +24,6 @@ dependencies {
     implementation("tv.pixellot.video:player:1.0.1")
 }
 ```
-
-</details>
 
 ## Setup
 

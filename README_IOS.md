@@ -14,8 +14,7 @@ A video player SDK for iOS applications.
 
 ## Installation
 
-<details>
-<summary><strong>CocoaPods</strong></summary>
+### CocoaPods
 
 Add the following to your `Podfile`:
 
@@ -28,8 +27,6 @@ Then run:
 ```bash
 pod install
 ```
-
-</details>
 
 ## Setup
 
