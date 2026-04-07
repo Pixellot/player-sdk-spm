@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Docusaurus
+build/
+.docusaurus/
+.cache-loader/
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.idea/
+*.swp
+*.swo
+*~
