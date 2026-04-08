@@ -14,7 +14,9 @@ Contact your Pixellot representative and provide:
 
 Once processed, Pixellot will return a **Project ID** which you will use for:
 - [Project Activation](./project-activation.md)
-- Configuring the mobile SDK
+- Configuring thde mobile SDK
+    - [iOS](../player-sdk/ios.md)
+    - [Android](../player-sdk/android.md)
 
 ## Environments
 
@@ -28,10 +30,11 @@ Pixellot SDKs support two environments:
 :::tip
 You will typically want to activate your project in **both** environments — staging for development and production for release.
 :::
-
+<!-- 
 ## Example Projects
 
 Browse full working examples in this repository:
 
 - [iOS Sample App](https://github.com/your-org/pixellot-sdk-docs/tree/main/examples/ios)
 - [Android Sample App](https://github.com/your-org/pixellot-sdk-docs/tree/main/examples/android)
+-->

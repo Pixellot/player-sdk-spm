@@ -20,10 +20,7 @@ const sidebars = {
       type: 'category',
       label: 'Project Usage',
       collapsible: false,
-      items: [
-        'project-usage/partner-api',
-        'project-usage/events-and-hooks',
-      ],
+      items: ['project-usage/events-and-hooks'],
     },
     {
       type: 'category',

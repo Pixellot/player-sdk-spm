@@ -5,12 +5,12 @@ sidebar_position: 2
 
 # Project Activation
 
-Activate your project via the Partner API and configure your mobile app with the Project ID.
+Activate your project via the Partner API and configure with the Project ID.
 
 ## Assumptions
 
-- You have your own back-end and mobile application
-- You use Pixellot Partner API v1.19.0 or above
+- You have your own back-end
+- You use Pixellot Partner API
 - You have a Project ID from the [Project Creation](./project-creation.md) step
 
 ## Activation via Partner API

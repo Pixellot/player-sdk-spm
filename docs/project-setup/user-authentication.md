@@ -28,9 +28,10 @@ Then:
 1. **Base64-encode** the JSON → this is the **token**
 2. **Sign** the base64 string with your RSA private key using `SHA256` → this is the **signature**
 
-Return both `token` and `signature` to your mobile app (e.g. via a REST endpoint).
-
+Send both `token` and `signature` to your app.
+<!--
 :::tip Reference Implementation
 See a full Node.js signing example at:
 [https://gitlab.com/pixellot/sdk-data-signing](https://gitlab.com/pixellot/sdk-data-signing)
 :::
+-->
