@@ -1,41 +1,33 @@
-# PixellotPlayerSDK
+# Pixellot Player SDK
 
 A cross-platform video player SDK — lightweight, event-driven, and easy to integrate.
 
 ---
 
-## Overview
+### Getting started
 
-PixellotPlayerSDK lets you embed a fully featured video player into your app with just a few lines of code. It supports live and on-demand playback, highlight access, and a clean event-driven API that works consistently across platforms.
+This README is the entry point. Continue with **[Project creation](docs/project-setup/project-creation.md)** to register your app and obtain a Project ID, or jump to any section below.
 
-**Key features:**
+### Project setup
 
-- Programmatic and layout-file integration (Storyboard/XIB on iOS, XML on Android)
-- Event-driven player lifecycle (`ready`, `playing`, `paused`, `buffering`, `finished`, `failed`)
-- Highlight list delivered on player ready
-- Auto-play and looping configuration
+| Guide | Description |
+| --- | --- |
+| [Project creation](docs/project-setup/project-creation.md) | Register your app with Pixellot and obtain a Project ID for your tenant. |
+| [Project activation](docs/project-setup/project-activation.md) | Generate RSA keys and activate the project via the Partner API. |
+| [User authentication](docs/project-setup/user-authentication.md) | Generate tokens and signatures on your backend to authenticate the SDK. |
 
----
+### Project usage
 
-## Platform Guides
+| Guide | Description |
+| --- | --- |
+| [Events and hooks (webhook subscriptions)](docs/project-usage/events-and-hooks.md) | Subscribe to events and react to changes in real time. |
 
-Choose your target platform to get started:
+### Player SDK
 
-| Platform | Package | Min OS | Guide |
-|---|---|---|---|
-| **iOS** | CocoaPods `~> 1.0.3` | iOS 13.0+ | [iOS Integration Guide](README_IOS.md) |
-| **Android** | Gradle `1.0.1` | SDK 29+ | [Android Integration Guide](README_ANDROID.md) |
-
----
-
-## Requirements Summary
-
-| | iOS | Android |
-|---|---|---|
-| **Min OS** | iOS 13.0+ | minSdk 29 |
-| **Language** | Swift 5.9+ | Kotlin 2.0+ / Java 17 |
-| **Tooling** | Xcode 15.0+ | compileSdk 36 |
-| **Package manager** | CocoaPods | Gradle (Kotlin DSL) |
+| Guide | Description |
+| --- | --- |
+| [iOS SDK](docs/player-sdk/ios.md) | Integrate the Pixellot video player into your iOS app (CocoaPods). |
+| [Android SDK](docs/player-sdk/android.md) | Integrate the Pixellot video player into your Android app (Gradle). |
 
 ---
 
