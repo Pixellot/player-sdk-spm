@@ -7,11 +7,11 @@ const config = {
   tagline: 'Integrate Pixellot video capabilities into your mobile application.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-org.github.io',
-  baseUrl: '/pixellot-sdk-docs/',
+  url: 'https://pixellot.github.io',
+  baseUrl: '/player-sdk-spm/',
 
-  organizationName: 'your-org',   // ← replace with your GitHub org/username
-  projectName: 'pixellot-sdk-docs',
+  organizationName: 'Pixellot LTD',
+  projectName: 'player-sdk-spm',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
