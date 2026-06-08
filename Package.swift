@@ -12,17 +12,17 @@ let package = Package(
         .binaryTarget(
             name: "PixellotPlayerSDK",
             url: "https://trialmmc5cr.jfrog.io/artifactory/pixellot-ios-local/PixellotPlayerSDK/0.0.1-test/PixellotPlayerSDK.xcframework.zip",
-            checksum: "4f5737ec441013cd43bef5e4477e9d1c6cf7206fb4010bd3bb4851c7a961d2f8"
+            checksum: "7d84cbabebf36969e09654507d1b79ae25ac0f395ab557aa3632c6fddbfb2bb6"
         ),
         .binaryTarget(
             name: "NpawPlugin",
             url: "https://trialmmc5cr.jfrog.io/artifactory/pixellot-ios-local/PixellotPlayerSDK/0.0.1-test/NpawPlugin.xcframework.zip",
-            checksum: "2f8916eb099c78c2f05fd6b214675b8656029851eef76230dfb86506ea5f5216"
+            checksum: "e4c49000d7641d2f245977eaef22b951a25a79279f4d1998fae067f8f819af97"
         ),
         .binaryTarget(
             name: "GCDWebServers",
             url: "https://trialmmc5cr.jfrog.io/artifactory/pixellot-ios-local/PixellotPlayerSDK/0.0.1-test/GCDWebServers.xcframework.zip",
-            checksum: "c49284280904019ec91cbf364100bac0bba35f7659920f092a23332ff27fb3d5"
+            checksum: "68639fee86fdacf23c1579d2ec1f6d7d2b27cdea41d882d8766911aed8749558"
         ),
     ]
 )
