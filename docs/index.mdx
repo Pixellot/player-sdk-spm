@@ -1,0 +1,52 @@
+---
+id: index
+title: Getting Started
+slug: /
+---
+
+import Link from '@docusaurus/Link';
+
+<div className="landing-hero">
+  <p className="landing-eyebrow">Documentation</p>
+  <h1 className="landing-title">Pixellot SDK</h1>
+  <p className="landing-sub">
+    Everything you need to integrate Pixellot.
+  </p>
+  <div className="landing-ctas">
+    <Link className="landing-btn-primary" to="/project-setup/project-creation">Get Started</Link>
+  </div>
+</div>
+
+<div className="landing-grid">
+
+  <Link to="/project-setup/project-creation" className="landing-card">
+    <div className="landing-card-icon">🛠️</div>
+    <div className="landing-card-title">Project Creation</div>
+    <div className="landing-card-desc">Register your app with Pixellot and obtain a Project ID for your tenant.</div>
+  </Link>
+
+  <Link to="/project-setup/project-activation" className="landing-card">
+    <div className="landing-card-icon">🔐</div>
+    <div className="landing-card-title">Project Activation</div>
+    <div className="landing-card-desc">Generate RSA keys, activate via Partner API.</div>
+  </Link>
+
+  <Link to="/project-setup/user-authentication" className="landing-card">
+    <div className="landing-card-icon">🔑</div>
+    <div className="landing-card-title">User Authentication</div>
+    <div className="landing-card-desc">Generate tokens and signatures on your backend to authenticate SDK.</div>
+  </Link>
+
+  <Link to="/project-usage/events-and-hooks" className="landing-card">
+    <div className="landing-card-icon">📡</div>
+    <div className="landing-card-title">Webhook subscriptions</div>
+    <div className="landing-card-desc">Subscribe to events and react to changes in real time.</div>
+  </Link>
+
+  <Link to="/player-sdk/ios" className="landing-card">
+    <div className="landing-card-icon">📱</div>
+    <div className="landing-card-title">Player SDK</div>
+    <div className="landing-card-desc">Integrate the Pixellot video player into your app.</div>
+  </Link>
+
+</div>
